@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://github.com/Muhmmedmedhat0/product-preview-card-front-end-mentor)
-- [Live version]()
+- [Live version](https://product-preview-card-front-end-mentor.vercel.app/)
 
 ## My process
 
