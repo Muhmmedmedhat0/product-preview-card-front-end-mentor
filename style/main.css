@@ -33,7 +33,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-  line-height: 1.5;
+  line-height: 1.1;
 }
 
 .center {
@@ -70,7 +70,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    max-width: 800px;
+    max-width: 600px;
   }
 }
 
@@ -99,8 +99,7 @@ body {
 }
 @media (min-width: 718px) {
   .product__subtitle {
-    margin-bottom: 0.5rem;
-    margin-top: 2rem;
+    margin: 0.5em;
   }
 }
 
@@ -113,7 +112,6 @@ body {
 @media (min-width: 718px) {
   .product__title {
     font-weight: 700;
-    margin-bottom: 0.5rem;
   }
 }
 
@@ -124,8 +122,7 @@ body {
 }
 @media (min-width: 718px) {
   .product__description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: 1em;
   }
 }
 
@@ -134,11 +131,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-}
-@media (min-width: 718px) {
-  .product--price {
-    margin-bottom: 1rem;
-  }
 }
 .product--price .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
@@ -186,5 +178,5 @@ body {
   width: 15px;
   height: 16px;
   background-image: url("../images/icon-cart.svg");
-  margin: 0rem 1rem;
+  margin: 0em 1em;
 }/*# sourceMappingURL=main.css.map */
