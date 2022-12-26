@@ -9,33 +9,35 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main>
-      <article class="product">
-        <picture class="product--img">
-          <source media="(min-width: 718px)" srcset="images/image-product-desktop.jpg" >
-          <img class="product--img__mobile" src="images/image-product-mobile.jpg" alt="product-mobile">
-        </picture>
-        <div class="product--content">
-          <p class="product__subtitle">Perfum</p>
-          <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="product__description">A floral, solar and voluptuous <br> interpretation composed by Olivier <br> Polge, 
-            Perfumer-Creator for the House of CHANEL.</p>
-          <div class="product--price">
-            <div class="product--price__new">
-              <span class="visually-hidden">Current price:</span>
-              $149.99
+    <div class="container">
+      <main>
+        <article class="product">
+          <picture class="product--img">
+            <source media="(min-width: 718px)" srcset="images/image-product-desktop.jpg" >
+            <img class="product--img__mobile" src="images/image-product-mobile.jpg" alt="product-mobile">
+          </picture>
+          <div class="product--content">
+            <p class="product__subtitle">Perfum</p>
+            <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
+            <p class="product__description">A floral, solar and voluptuous <br> interpretation composed by Olivier <br> Polge, 
+              Perfumer-Creator for the House of CHANEL.</p>
+            <div class="product--price">
+              <div class="product--price__new">
+                <span class="visually-hidden">Current price:</span>
+                $149.99
+              </div>
+              <div class="product--price__original">
+                <span class="visually-hidden">Original price:</span>
+                $149.99
+              </div>
             </div>
-            <div class="product--price__original">
-              <span class="visually-hidden">Original price:</span>
-              $149.99
-            </div>
+            <button class="product--add--to__cart" data-icon="shopping-cart">
+              Add to Cart
+            </button>
           </div>
-          <button class="product--add--to__cart" data-icon="shopping-cart">
-            Add to Cart
-          </button>
-        </div>
-      </article>
-    </main>
+        </article>
+      </main>
+    </div>
     
   </body>
 </html>
